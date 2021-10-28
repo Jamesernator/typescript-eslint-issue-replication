@@ -1,0 +1,33 @@
+{
+    "include": [
+        "./**/*.ts",
+        "./**/*.mts",
+        "./**/*.cts"
+    ],
+    "exclude": [
+        "./**/*.d.ts",
+        "./**/*.d.mts",
+        "./**/*.d.cts"
+    ],
+    "compilerOptions": {
+        "composite": true,
+        "declaration": true,
+        "declarationMap": true,
+        "downlevelIteration": true,
+        "isolatedModules": true,
+        "module": "esnext",
+        "rootDir": "./",
+        "sourceMap": true,
+        "target": "esnext",
+        "newLine": "lf",
+        "useDefineForClassFields": true,
+        "strict": true,
+        "alwaysStrict": true,
+        "exactOptionalPropertyTypes": true,
+        "noImplicitOverride": true,
+        "noUncheckedIndexedAccess": true,
+        "importsNotUsedAsValues": "error",
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true
+    }
+}

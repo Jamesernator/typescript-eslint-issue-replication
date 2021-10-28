@@ -1,0 +1,19 @@
+{
+    "name": "typescript-eslint-issue-replication",
+    "type": "module",
+    "author": "James \"The Jamesernator\" Browning <contact@jamesernator.io>",
+    "license": "ISC",
+    "private": true,
+    "exports": {
+        "./*": "./*"
+    },
+    "devDependencies": {
+        "@jamesernator/eslint-config": "^7.4.0",
+        "typescript": "^4.4.4"
+    },
+    "scripts": {
+        "build": "tsc --build",
+        "lint": "eslint **/*.ts",
+        "lint:fix": "eslint --fix **/*.ts"
+    }
+}
